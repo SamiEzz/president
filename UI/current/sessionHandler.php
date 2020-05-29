@@ -1,0 +1,9 @@
+<?php
+session_start();
+if(!empty($_GET["disconnect"])){
+	if($_GET["disconnect"]==1){
+		$_SESSION['isConnected']=0;
+		session_write_close();
+	}
+}
+?>
