@@ -1,7 +1,7 @@
 
   <!-- Page Wrapper -->
   <div id="wrapper">
-    <?php include("sidebar.php");?>
+    <?php /*include("sidebar.php");*/?>
 
     <!-- Content Wrapper -->
     <div id="content-wrapper" class="d-flex flex-column">
@@ -15,7 +15,7 @@
         <!-- Begin Page Content -->
         <?php include("homeContent.php");?>
         <!-- /.container-fluid -->
-
+        <?php include("interactions.php");?>
       </div>
       <!-- End of Main Content -->
 
