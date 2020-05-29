@@ -20,8 +20,18 @@
     </ul>
   </div>
   <div class="card-body">
-    <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+  <nav class="nav nav-pills nav-justified">
+  <a class="nav-item nav-link active" href="#">Active</a>
+  <a class="nav-item nav-link" href="#">Link</a>
+  <a class="nav-item nav-link" href="#">Link</a>
+  <a class="nav-item nav-link " href="#">Disabled</a>
+  <a class="nav-item nav-link" href="#">Link</a>
+  <a class="nav-item nav-link " href="#">Disabled</a>
+  <a class="nav-item nav-link" href="#">Link</a>
+  <a class="nav-item nav-link " href="#">Disabled</a>
+  </nav>
+    <h5 class="card-title">Select cards to throw</h5>
+    <p class="card-text"></p>
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
 </div>
