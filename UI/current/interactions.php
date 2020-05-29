@@ -3,13 +3,13 @@
   <div class="card-header">
     <ul class="nav nav-tabs justify-content-center card-header-tabs">
       <li class="nav-item">
-        <a class="nav-link active" href="#">Mes cartes</a>
+        <a class="nav-link active" href="#">My stack</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Chat</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">log</a>
+        <a class="nav-link" href="#">History of actions</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Link</a>
