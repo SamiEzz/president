@@ -34,9 +34,9 @@
                 <!-- Card Body -->
                 <div class="card-body">
                 <nav class="nav nav-pills nav-justified">
-                <a class="nav-item nav-link disabled" href="#">A <br><img style="width:100px" src="img/cards/pi.png"></a>
-                <a class="nav-item nav-link disabled" href="#">A <br><img style="width:100px" src="img/cards/ca.png"></a>
-                <a class="nav-item nav-link disabled" href="#">A <br><img style="width:100px" src="img/cards/co.png"></a>
+                <a class="nav-item nav-link disabled" href="#">2 <br><img style="width:100px" src="img/cards/tr.png"></a>
+                <a class="nav-item nav-link disabled" href="#">2 <br><img style="width:100px" src="img/cards/ca.png"></a>
+                <a class="nav-item nav-link disabled" href="#">2 <br><img style="width:100px" src="img/cards/co.png"></a>
                 
                 </nav>
                 </div>

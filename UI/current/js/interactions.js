@@ -13,25 +13,35 @@ function getMyStackHTML(){
         var dotindex = element.indexOf(".");
         var number = element.slice(0,dotindex);
         var symbol = element.slice(dotindex+1,element.length); 
-        console.log("symbole : "+symbol);
-        console.log("element : "+element);
-        console.log("dotindex : "+dotindex);
-        
+        /**
+         * HTML Body
+         */
+        htmlBody=htmlBody.concat("<div class='card' style='display:inline-block'><a class='nav-item nav-link' href='#'>");
+        htmlBody=htmlBody.concat(number);
+        htmlBody=htmlBody.concat("<br><img style='height:100px' src='img/cards/");
+        htmlBody=htmlBody.concat(symbol);
+        htmlBody=htmlBody.concat(".png'><br>");
+        htmlBody=htmlBody.concat(number);
+        htmlBody=htmlBody.concat("</a></div>");
+        /*
         htmlBody=htmlBody.concat("<a class='nav-item nav-link' href='#'>");
         htmlBody=htmlBody.concat(number);
         htmlBody=htmlBody.concat("<br><img style='width:150px' src='img/cards/");
         htmlBody=htmlBody.concat(symbol);
         htmlBody=htmlBody.concat(".png'></a>");
+        */
         
     }
     html=html.concat(htmlBody);
     html=html.concat(htmlFooter);
-    console.log(html);
+    //console.log(html);
     return html;
 }
 
 function getHistoryOfActionsHTML(){
-    var tableStack = [["9.ca","9.co","9.tr"],["10.ca","10.co","10.tr"],["2.ca","2.co","2.tr"]];
+    //this.classList.toggle("active");
+    var tableStack = [["2.pi"],["9.ca","9.co","9.tr"],["10.ca","10.co","10.tr"],["2.ca","2.co","2.tr"]];
+    tableStack = tableStack.reverse();
     var numberOfActions = tableStack.length;
     
     
@@ -58,7 +68,7 @@ function getHistoryOfActionsHTML(){
         html=html.concat(htmlFooter);
         
     }
-    console.log(html);
+    //console.log(html);
     
     return html;
 }

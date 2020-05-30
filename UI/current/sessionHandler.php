@@ -14,6 +14,13 @@ if(!empty($_GET["disconnect"])){
 if(!empty($_SESSION["isConnected"])){
 	if($_SESSION["isConnected"]==1){
 		$_SESSION['playerId']=getPlayerId();
+		//$_SESSION['playerName']=getPlayerName();
+		//$_SESSION['playerStack']=getPlayerStack();
+		//$_SESSION['PlayerTurnId']=getPlayerTurnId();
+		//$_SESSION['playerId']=getPlayerId();
+		
+
+
 	}
 	
 }
