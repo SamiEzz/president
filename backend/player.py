@@ -5,3 +5,5 @@ class  player():
         self.playerId = playerId
         self.lastRank = lastRank
         self.gameId= gameId
+        self.stack=[]
+    
