@@ -6,6 +6,7 @@ class Player(models.Model):
     player_name = models.CharField(max_length=200)
     player_score = models.CharField(max_length=200)
     player_avatar = models.CharField(max_length=300)
+    player_room = models.CharField(max_length=100,default="waitingRoom")
     player_email = models.EmailField()
     
     def __str__(self):

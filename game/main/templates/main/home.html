@@ -3,20 +3,16 @@
 {% block content %}
 <div id="myspace">
   <div id="cards">
-  <ul class="pagination">
-    <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
-    <li class="active"><a href="#!">1</a></li>
-    <li class="waves-effect"><a href="#!">2</a></li>
-    <li class="waves-effect"><a href="#!">3</a></li>
-    <li class="waves-effect"><a href="#!">4</a></li>
-    <li class="waves-effect"><a href="#!">5</a></li>
-    <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
-  </ul>
+  
+  
   </div>
   <div id="playButtons">
-    <a class="btn-floating btn-large"><i class="material-icons">menu</i> Show cards</a>
-    <a class="btn-floating btn-large "><i class="material-icons">cloud</i></a>
-    <a class="btn-floating btn-large cyan pulse"><i class="material-icons">edit</i></a>
+    <a class="btn-floating btn-large"><i class="material-icons">skip_previous</i></a>
+    <a class="btn-floating btn-large"><i class="material-icons">bolt</i></a>
+    <a class="btn-floating btn-large"><i class="material-icons">skip_next</i></a>
+    <a id="addCard" class="btn-floating btn-large cyan"><i class="material-icons">add</i></a>
   </div>
 </div>
+
+{% include "main/players.html" %}
 {% endblock %}
